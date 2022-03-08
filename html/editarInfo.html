@@ -1,0 +1,55 @@
+<html>
+<head>
+<tittle> Formulario de registro </titlle>
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.1/build/pure-min.css"/>
+</head>
+
+<body>
+
+<center><img src="https://gredos.usal.es/themes/Mirage2/images/usal.png"/>
+
+<form class="pure-form pure-form-aligned" action="/cgi-bin/editarBDD.cgi" method="POST">
+    <fieldset>
+	<div class="pure-control-group">
+            <label for="aligned-name">usuario</label>
+            <input name="username" type="text" id="aligned-name" placeholder="usuario" />
+        </div>
+ <div class="pure-control-group">
+            <label for="aligned-name">nombre</label>
+            <input name="name" type="text" id="aligned-name" placeholder="nombre" />
+         </div>
+ <div class="pure-control-group">
+            <label for="aligned-name">contrase&ntilde;a</label>
+            <input name="pass" type="text" id="aligned-name" placeholder="pass" />
+        </div>
+ <div class="pure-control-group">
+            <label for="aligned-name">nuevaContrase&ntilde;a</label>
+            <input name="newPass" type="text" id="aligned-name" placeholder="pass" />
+        </div>
+
+
+ <div class="pure-control-group">
+            <label for="aligned-name">direccion postal</label>
+            <input name="dPostal" type="text" id="aligned-name" placeholder="ej: 37900" />
+        </div>
+
+ <div class="pure-control-group">
+            <label for="aligned-name">correo</label>
+            <input name="email" type="text" id="aligned-name" placeholder="email" />
+        </div>
+
+
+        <div>
+                <form class="pure-form pure-form-aligned"  method="POST">
+                <button type="submit" class="pure-button pure-button-primary">modificar datos</button>
+        </div>
+
+        </fieldset>
+</form>
+</center>
+
+</body>
+
+</html>
+
+

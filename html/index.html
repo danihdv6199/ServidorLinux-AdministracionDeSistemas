@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.1/build/pure-min.css"/>
+</head>
+
+<body>
+
+<center><img src="https://gredos.usal.es/themes/Mirage2/images/usal.png"/>
+
+<form class="pure-form pure-form-aligned" action="/cgi-bin/login.cgi" method="POST">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="aligned-name">Nombre de usuario</label>
+            <input name="username" type="text" id="aligned-name" placeholder="Username" />
+        </div>
+        <div class="pure-control-group">
+            <label for="aligned-password">Contraseña</label>
+            <input name="password" type="password" id="aligned-password" placeholder="Password" />
+        </div>
+	<div>
+		<form class="pure-form pure-form-aligned"  method="POST">
+		<button type="submit" class="pure-button pure-button-primary">Login</button>
+	</div>
+
+	</fieldset>
+</form>
+
+<form class="pure-form pure-form-aligned" action="/olvidoContrasena.html" method="POST">
+<button type="submit" class="pure-button pure-button-primary">Olvido Contraseña</button>
+</form>
+
+
+<label> Crea tu cuenta</label> 
+<form class="pure-form pure-form-aligned" action="/registroBDD.html" method="POST">
+<button type="submit" class="pure-button pure-button-primary">Registrar</button>
+</form>
+</center>
+
+</body>
+
+</html>

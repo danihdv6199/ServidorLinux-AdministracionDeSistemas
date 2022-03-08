@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.1/build/pure-min.css"/>
+</head>
+
+<body>
+
+<center><img src="https://gredos.usal.es/themes/Mirage2/images/usal.png"/>
+
+<form class="pure-form pure-form-aligned" action="/cgi-bin/registroWordPress.cgi" method="POST">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="aligned-name">Nombre de usuario SQL</label>
+            <input name="username" type="text" id="aligned-name" placeholder="ej: daniyalvi" />
+        </div>
+        <div class="pure-control-group">
+            <label for="aligned-password">Contrase&ntilde;a</label>
+            <input name="password" type="password" id="aligned-password" placeholder="Maximo 20 caracteres" />
+        </div>
+        <div class="pure-control-group">
+            <label for="aligned-password">Repite la contrase&ntilde;a</label>
+            <input name="rpassword" type="password" id="aligned-password"/>
+        </div>
+        <div class="pure-control-group">
+            <label for="aligned-name">Nombre de la base de datos</label>
+            <input name="name" type="text" id="aligned-name"  />
+        </div>
+        
+        <div>
+                <button type="submit" class="pure-button pure-button-primary">REGISTRO</button>
+        </div>
+        </fieldset>
+</form>
+
+</center>
+
+</body>
+
+</html>
